@@ -8,12 +8,11 @@ Veriler **Firebase** üzerinde güvenli bir şekilde saklanır. Uygulama, sağl�
 
 ---
 
-## 🎥 Demo (30 Saniyelik Görsel)
+## 🎥 📸 Ekran Görüntüsü
 
 <p align="center">
-  Uygulamanın temel özelliklerini gösteren kısa bir GIF/video eklenecek 👇  
   <br>
-  <em>*(demo.gif buraya eklenecek)*</em>
+  (./SaglikGunlugu.gif)
 </p>
 
 ---
