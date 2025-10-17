@@ -1,33 +1,47 @@
-# Sağlık Günlüğü Mobil Uygulaması 🩺✨
+# 🩺 Sağlık Günlüğü Mobil Uygulaması
 
-Selam! 👋 **Üniversite ikinci sınıf projesi olarak başladığım daha sonra geliştirmelerle GitHub'a taşınan** bu React Native (Expo) projesi, kişisel sağlık verilerinizi (kilo, uyku, su, adımlar, kalori) kolayca takip etmeniz ve anlamlı grafiklerle analiz etmeniz için geliştirildi. Firebase ile verileriniz saklanır. Sağlıklı yaşam hedeflerinize ulaşırken motivasyonunuzu yüksek tutmanıza yardımcı olmayı amaçlıyor!
+Merhaba! 👋  
+Bu proje, **üniversite ikinci sınıfta başladığım** ve daha sonra geliştirmeye devam ederek **GitHub’a taşıdığım kişisel bir React Native (Expo) projesidir.**  
 
-## 🚀 Hızlı Bakış (Demo)
+Amaç, kullanıcıların **kilo, uyku, su, adım ve kalori** gibi sağlık verilerini kolayca takip edebilmesi ve bunları **grafiklerle analiz edebilmesidir.**  
+Veriler **Firebase** üzerinde güvenli bir şekilde saklanır. Uygulama, sağlıklı yaşam hedeflerinize ulaşırken **motivasyonunuzu yüksek tutmayı** hedefler! 💪
+
+---
+
+## 🎥 Demo (30 Saniyelik Görsel)
 
 <p align="center">
-  Uygulamanın arayüzü ve temel özelliklerini gösteren kısa bir video/gif:
+  Uygulamanın temel özelliklerini gösteren kısa bir GIF/video eklenecek 👇  
   <br>
-  *[Video/GIF Buraya Eklenecek]*
+  <em>*(demo.gif buraya eklenecek)*</em>
 </p>
 
-## ✨ Öne Çıkan Özellikler
+---
 
-* 🔐 **Güvenli Giriş/Kayıt:** E-posta veya Google ile kolayca hesap oluşturun/giriş yapın.
-* ✍️ **Hızlı Kayıt:** Günlük uyku, su, adım, kalori ve kilo verilerinizi pratik arayüzle saniyeler içinde ekleyin.
-* 📜 **Geçmişi Görüntüleyin:** Tüm kayıtlarınızı tarihe göre sıralı, anlaşılır kartlar üzerinde görün.
-* ✏️ **Düzenleyin ve Silin:** Kayıtlarınızı kolayca güncelleyin veya kaldırın.
-* 📊 **Analiz Edin:** Verilerinizi (Adım, Uyku, Kalori vb.) günlük, haftalık, aylık **çizgi grafikleriyle** görselleştirin ve trendleri keşfedin.
-* 👤 **Profilinizi Yönetin:** Kişisel bilgilerinizi (ad, yaş, bio vb.) görüntüleyin ve güncelleyin.
+## ✨ Özellikler
 
-## 🛠️ Kullanılan Araçlar
+- 🔐 **Güvenli Giriş & Kayıt:** E-posta veya Google hesabınızla kolayca giriş yapın.  
+- 📝 **Günlük Veri Takibi:** Uyku, su, adım, kalori ve kilo bilgilerinizi saniyeler içinde kaydedin.  
+- 🕒 **Geçmiş Görüntüleme:** Kayıtlarınızı tarih sırasına göre görüntüleyin.  
+- ✏️ **Kayıt Düzenleme & Silme:** Hatalı verileri kolayca güncelleyin veya kaldırın.  
+- 📊 **Grafik Analiz:** Günlük, haftalık ve aylık istatistikleri çizgi grafiklerle görüntüleyin.  
+- 👤 **Profil Yönetimi:** Kişisel bilgilerinizi (ad, yaş, biyografi vb.) düzenleyin.  
 
-* **Platform:** React Native (Expo)
-* **Dil:** TypeScript
-* **Backend:** Firebase (Authentication & Firestore)
-* **Navigasyon:** React Navigation
-* **UI & Animasyon:** React Native Reanimated, Expo Linear Gradient, React Native Feather
-* **Grafikler:** React Native Chart Kit
-* **Yardımcılar:** Picker Select, Responsive Screen, Safe Area Context, Haptics
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+| Alan | Teknoloji |
+|------|------------|
+| **Mobil Geliştirme** | React Native (Expo) |
+| **Dil** | TypeScript |
+| **Backend** | Firebase (Authentication & Firestore) |
+| **Navigasyon** | React Navigation |
+| **UI & Animasyon** | React Native Reanimated, Expo Linear Gradient |
+| **Grafikler** | React Native Chart Kit |
+| **Yardımcı Araçlar** | Picker Select, Responsive Screen, Safe Area Context, Haptics |
+
+---
 
 ## ⚙️ Kurulum ve Çalıştırma Kılavuzu
 
@@ -76,3 +90,9 @@ Bu proje [MIT Lisansı](LICENSE) altındadır.
 
 ---
 
+👨‍💻 **Developer:** Berat Baş  
+🔗 [LinkedIn](https://www.linkedin.com/in/berat-baş-6a91a3274) | [GitHub](https://github.com/BeratBass)
+
+---
+
+> 🎯 *Bu proje, kişisel gelişim sürecimin bir parçası olarak geliştirilmiş olup; öğrenme, tasarım ve kullanıcı deneyimi odaklı bir mobil uygulama örneğidir.*
