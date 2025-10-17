@@ -4,7 +4,7 @@
     "slug": "saglikgunlugu",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./src/assets/sagliklogo.png",
     "scheme": "saglikgunlugu",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -12,18 +12,17 @@
       "supportsTablet": true
     },
     "android": {
+      "icon": "./src/assets/sagliklogo.png",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "foregroundImage": "./src/assets/sagliklogo.png",
+        "backgroundColor": "#E6F4FE"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./src/assets/sagliklogo.png"
     },
     "plugins": [
       "expo-router",

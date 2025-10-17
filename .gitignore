@@ -1,15 +1,18 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
-# dependencies
+# Bağımlılıklar (Dependencies)
+# Projenin çalışması için indirilen kütüphaneler, kod deposunda yer almamalıdır.
 node_modules/
 
-# Expo
+# Expo Özel Dosyalar
+# Expo CLI tarafından oluşturulan geçici dosyalar, build çıktıları ve önbellekler.
 .expo/
 dist/
 web-build/
 expo-env.d.ts
 
-# Native
+# Native Build Dosyaları (Android/iOS)
+# Cihazlar için build sırasında oluşturulan platforma özgü dosyalar ve imzalar.
 .kotlin/
 *.orig.*
 *.jks
@@ -17,27 +20,48 @@ expo-env.d.ts
 *.p12
 *.key
 *.mobileprovision
+*.pem
 
-# Metro
+# Metro Bundler
+# React Native'in JavaScript paketleyicisinin geçici dosyaları.
 .metro-health-check*
 
-# debug
+# Hata Ayıklama (Debug) Logları
+# Hata ayıklama sırasında oluşturulan log dosyaları.
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+*.log
 
-# macOS
+# İşletim Sistemi Özel Dosyaları
+# macOS ve Windows tarafından otomatik oluşturulan sistem dosyaları.
 .DS_Store
-*.pem
+Thumbs.db
 
-# local env files
+# Yerel Ortam Değişkenleri (Environment Variables)
+# API anahtarları gibi HASSAS bilgileri içeren dosyalar KESİNLİKLE GİT'e GÖNDERİLMEMELİDİR!
+.env
 .env*.local
 
-# typescript
+# TypeScript Build Bilgisi
+# TypeScript derleyicisinin önbellek dosyaları.
 *.tsbuildinfo
 
+# Örnek Uygulama Dizini (Varsa)
 app-example
 
-# generated native folders
+# Expo Tarafından Oluşturulan Native Klasörler
+# `expo prebuild` veya build sırasında oluşturulan platform klasörleri.
 /ios
 /android
+
+# IDE Özel Ayar Dosyaları
+# Editörlere (VS Code, WebStorm vb.) ait proje ayar dosyaları.
+.vscode/
+.idea/
+
+# Firebase Yapılandırma Dosyası (ÇOK ÖNEMLİ)
+# API anahtarları gibi hassas bilgileri içerebileceği için GİT'e GÖNDERİLMEMELİDİR.
+# Projenizdeki config dosyasının yolunu buraya yazın:
+src/config/firebase.ts
+# Eğer dosya yolu farklıysa, örneğin: config/firebase.ts gibi, ona göre güncelleyin.
