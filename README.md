@@ -1,63 +1,35 @@
 # Sağlık Günlüğü Mobil Uygulaması 🩺✨
 
-**Sağlıklı yaşam yolculuğunuzda size rehberlik edecek kişisel asistanınız!** Bu modern ve kullanıcı dostu React Native (Expo) mobil uygulaması, günlük sağlık verilerinizi (kilo değişiminiz, uyku düzeniniz, su tüketiminiz, fiziksel aktiviteniz ve kalori alımınız gibi) zahmetsizce kaydetmenizi sağlar. Kayıtlı verileriniz üzerinden zaman içindeki ilerlemenizi **anlaşılır grafiklerle** analiz edebilir, kişisel profilinizi yönetebilir ve sağlık hedeflerinize ulaşma yolunda motivasyonunuzu artırabilirsiniz. Güvenliğiniz bizim için önemli; tüm verileriniz Firebase'in güçlü altyapısı kullanılarak **güvenli bir şekilde** saklanır ve yönetilir.
+Selam! 👋 **Üniversite ikinci sınıf projesi olarak başladığım daha sonra geliştirmelerle GitHub'a taşınan** bu React Native (Expo) projesi, kişisel sağlık verilerinizi (kilo, uyku, su, adımlar, kalori) kolayca takip etmeniz ve anlamlı grafiklerle analiz etmeniz için geliştirildi. Firebase ile verileriniz saklanır. Sağlıklı yaşam hedeflerinize ulaşırken motivasyonunuzu yüksek tutmanıza yardımcı olmayı amaçlıyor!
 
-## 🚀 Uygulama Demosu
+## 🚀 Hızlı Bakış (Demo)
 
 <p align="center">
-  Uygulamanın akıcı arayüzünü ve temel işlevlerini gösteren kısa bir tanıtım:
+  Uygulamanın arayüzü ve temel özelliklerini gösteren kısa bir video/gif:
   <br>
   *[Video/GIF Buraya Eklenecek]*
 </p>
 
 ## ✨ Öne Çıkan Özellikler
 
-Bu uygulama, sağlıklı alışkanlıklar edinmenize ve sürdürmenize yardımcı olmak için özenle tasarlandı:
+* 🔐 **Güvenli Giriş/Kayıt:** E-posta veya Google ile kolayca hesap oluşturun/giriş yapın.
+* ✍️ **Hızlı Kayıt:** Günlük uyku, su, adım, kalori ve kilo verilerinizi pratik arayüzle saniyeler içinde ekleyin.
+* 📜 **Geçmişi Görüntüleyin:** Tüm kayıtlarınızı tarihe göre sıralı, anlaşılır kartlar üzerinde görün.
+* ✏️ **Düzenleyin ve Silin:** Kayıtlarınızı kolayca güncelleyin veya kaldırın.
+* 📊 **Analiz Edin:** Verilerinizi (Adım, Uyku, Kalori vb.) günlük, haftalık, aylık **çizgi grafikleriyle** görselleştirin ve trendleri keşfedin.
+* 👤 **Profilinizi Yönetin:** Kişisel bilgilerinizi (ad, yaş, bio vb.) görüntüleyin ve güncelleyin.
 
-* 👤 **Güvenli ve Kolay Kullanıcı Yönetimi:**
-    * Firebase Authentication ile E-posta/Şifre kullanarak saniyeler içinde **kayıt olun** veya **giriş yapın**.
-    * Şifrenizi mi unuttunuz? Entegre **şifre sıfırlama** özelliği ile hesabınıza yeniden erişin.
-* 📝 **Zahmetsiz Veri Girişi (Günlük Kayıt):**
-    * Minimalist ve sezgisel arayüzü kullanarak **uyku süresi**, **içilen su miktarı**, **atılan adım sayısı**, **alınan kalori** ve **güncel kilo** gibi verileri hızla ve kolayca kaydedin.
-    * Pratik **artı/eksi butonları** sayesinde sayısal değerleri anında ayarlayın.
-    * Kayıtlarınızın doğruluğu için, **geçmişe dönük tarih seçimi engellenmiştir**.
-* 🗓️ **Detaylı ve Organize Kayıt Geçmişi (Günlük):**
-    * Tüm sağlık kayıtlarınızı **en yeniden en eskiye** doğru sıralanmış olarak görüntüleyin.
-    * Her bir kayıt kartında, o güne ait tüm verileri (kilo, uyku, su vb.) **özet halinde** görün.
-* ✏️ **Esnek Kayıt Yönetimi:**
-    * Hatalı girişleri veya değişen değerleri **kolayca düzenleyin**.
-    * İstemediğiniz kayıtları, **güvenli onay mekanizması** ile kalıcı olarak silin.
-* 📊 **Anlaşılır Veri Analizi (Grafikler):**
-    * **Adım Sayısı, Uyku Süresi, Alınan Kalori, İçilen Su** veya **Kilo Değişimi** verilerini seçerek ilerlemenizi detaylı olarak inceleyin.
-    * Verilerinizi **günlük**, **haftalık** veya **aylık** periyotlarda, modern ve okunaklı **çizgi grafikleri** üzerinde görselleştirin.
-    * Sağlık trendlerinizi ve alışkanlıklarınızı kolayca fark ederek **bilinçli kararlar** verin.
-* 👤 **Kişiselleştirilebilir Profil:**
-    * Ad, soyad, kullanıcı adı, yaş ve kısa bir **bio** gibi kişisel bilgilerinizi görüntüleyin.
-    * **Profili Düzenle** seçeneği ile bu bilgileri istediğiniz zaman güncelleyin.
-    * Profil resminizi eklemek/değiştirmek için hazır altyapı (+ butonu).
-    * Hesabınızdan **güvenli bir şekilde çıkış yapın**.
-* 🎨 **Modern ve Akıcı Tasarım:**
-    * Göze hoş gelen, minimalist ve estetik bir kullanıcı arayüzü.
-    * `React Native Reanimated` ile pürüzsüz **animasyonlar** ve kullanıcı etkileşimleri.
-    * `Expo Linear Gradient` ile canlı ve modern renk geçişleri.
-    * `React Native Feather` ikonları ile zenginleştirilmiş, anlaşılır görsel dil.
-* 📱 **Evrensel Uyumluluk (Çapraz Platform):**
-    * Expo sayesinde, **tek bir kod tabanı** ile hem **iOS** hem de **Android** cihazlarda **native performansla** çalışır.
+## 🛠️ Kullanılan Araçlar
 
-## 🛠️ Kullanılan Teknolojiler ve Kütüphaneler
-
-Bu projenin kalbinde yer alan modern ve güçlü araçlar:
-
-* **Çerçeve (Framework):** React Native (Expo Managed Workflow)
+* **Platform:** React Native (Expo)
 * **Dil:** TypeScript
-* **Navigasyon:** React Navigation v6 (Stack Navigator, Bottom Tab Navigator)
-* **Veritabanı & Kimlik Doğrulama:** Firebase (Firestore, Authentication)
-* **UI & Animasyon:** React Native Reanimated v3, Expo Linear Gradient, React Native Feather
+* **Backend:** Firebase (Authentication & Firestore)
+* **Navigasyon:** React Navigation
+* **UI & Animasyon:** React Native Reanimated, Expo Linear Gradient, React Native Feather
 * **Grafikler:** React Native Chart Kit
-* **Yardımcı Kütüphaneler:** React Native Picker Select, React Native Responsive Screen, React Native Safe Area Context, Expo Haptics, Expo Auth Session (Google Sign-In için temel)
-* **Platform API'ları:** Expo Web Browser
+* **Yardımcılar:** Picker Select, Responsive Screen, Safe Area Context, Haptics
 
-## ⚙️ Kurulum ve Çalıştırma Kılavuzu (Başlangıç)
+## ⚙️ Kurulum ve Çalıştırma Kılavuzu
 
 Projeyi kendi geliştirme ortamınızda kurup denemek için aşağıdaki basit adımları izleyin:
 
@@ -90,7 +62,7 @@ Projeyi kendi geliştirme ortamınızda kurup denemek için aşağıdaki basit a
         EXPO_PUBLIC_FIREBASE_APP_ID=...
         ```
     * **Önemli:** `src/config/firebase.ts` dosyanızın bu `.env` değişkenlerini okuduğundan emin olun.
-    * 
+
 4.  **Uygulamayı Çalıştırın:**
     ```bash
     npx expo start
@@ -98,9 +70,9 @@ Projeyi kendi geliştirme ortamınızda kurup denemek için aşağıdaki basit a
     * Telefonunuza **Expo Go** uygulamasını yükleyin (App Store / Google Play).
     * Expo Go'yu açın ve terminalde çıkan **QR kodu** taratarak uygulamayı başlatın.
 
+## 📄 Lisans
 
-
+Bu proje [MIT Lisansı](LICENSE) altındadır.
 
 ---
 
-Umarım bu daha detaylı README, projenizi en iyi şekilde temsil eder! Başka bir konuda yardıma ihtiyacınız olursa çekinmeyin.
