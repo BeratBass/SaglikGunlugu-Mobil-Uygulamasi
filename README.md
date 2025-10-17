@@ -8,11 +8,12 @@ Veriler **Firebase** üzerinde güvenli bir şekilde saklanır. Uygulama, sağl�
 
 ---
 
-## 🎥 📸 Ekran Görüntüsü
+## 🎥📸 Ekran Görüntüsü
 
 <p align="center">
+  <img src="./SaglikGunlugu.gif" alt="Sağlık Günlüğü Uygulama Önizlemesi" width="300"/>
   <br>
-  (./SaglikGunlugu.gif)
+  <em>Uygulamanın temel işlevlerini gösteren kısa bir demo</em>
 </p>
 
 ---
